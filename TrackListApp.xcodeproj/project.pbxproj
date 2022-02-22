@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		DD54F2C127C50E7E00A7EBA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54F2C027C50E7E00A7EBA3 /* AppDelegate.swift */; };
 		DD54F2C327C50E7E00A7EBA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54F2C227C50E7E00A7EBA3 /* SceneDelegate.swift */; };
-		DD54F2C527C50E7E00A7EBA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54F2C427C50E7E00A7EBA3 /* ViewController.swift */; };
 		DD54F2C827C50E7E00A7EBA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD54F2C627C50E7E00A7EBA3 /* Main.storyboard */; };
 		DD54F2CA27C50E7E00A7EBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD54F2C927C50E7E00A7EBA3 /* Assets.xcassets */; };
 		DD54F2CD27C50E7E00A7EBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD54F2CB27C50E7E00A7EBA3 /* LaunchScreen.storyboard */; };
+		DD54F2D527C522FF00A7EBA3 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54F2D427C522FF00A7EBA3 /* TrackListViewController.swift */; };
+		DD54F2D727C543C700A7EBA3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54F2D627C543C700A7EBA3 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD54F2BD27C50E7E00A7EBA3 /* TrackListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD54F2C027C50E7E00A7EBA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD54F2C227C50E7E00A7EBA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD54F2C427C50E7E00A7EBA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD54F2C727C50E7E00A7EBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD54F2C927C50E7E00A7EBA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD54F2CC27C50E7E00A7EBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD54F2CE27C50E7E00A7EBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD54F2D427C522FF00A7EBA3 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		DD54F2D627C543C700A7EBA3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				DD54F2C027C50E7E00A7EBA3 /* AppDelegate.swift */,
 				DD54F2C227C50E7E00A7EBA3 /* SceneDelegate.swift */,
-				DD54F2C427C50E7E00A7EBA3 /* ViewController.swift */,
 				DD54F2C627C50E7E00A7EBA3 /* Main.storyboard */,
+				DD54F2D427C522FF00A7EBA3 /* TrackListViewController.swift */,
+				DD54F2D627C543C700A7EBA3 /* DetailViewController.swift */,
 				DD54F2C927C50E7E00A7EBA3 /* Assets.xcassets */,
 				DD54F2CB27C50E7E00A7EBA3 /* LaunchScreen.storyboard */,
 				DD54F2CE27C50E7E00A7EBA3 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD54F2C527C50E7E00A7EBA3 /* ViewController.swift in Sources */,
 				DD54F2C127C50E7E00A7EBA3 /* AppDelegate.swift in Sources */,
 				DD54F2C327C50E7E00A7EBA3 /* SceneDelegate.swift in Sources */,
+				DD54F2D527C522FF00A7EBA3 /* TrackListViewController.swift in Sources */,
+				DD54F2D727C543C700A7EBA3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
